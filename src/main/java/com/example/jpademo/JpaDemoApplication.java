@@ -21,8 +21,6 @@ public class JpaDemoApplication implements CommandLineRunner{
 	@Autowired
 	private RestaurantRepository restaurantRepository;
 	
-	@Autowired
-	private MenuRepository menuRepository;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(JpaDemoApplication.class, args);
